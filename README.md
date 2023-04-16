@@ -31,7 +31,7 @@ Timeline:
 - [ ] Implement [Resnet50](https://pytorch.org/hub/nvidia_deeplearningexamples_resnet50/) (use pretrained weights, use existing implementation)
 - [ ] Train and log results
 - [ ] Evaluate model on test set
-- [ ] Write paper
+- [ ] Write report
 
 ## Helpful Links
 - [Pytorch quickstart](https://pytorch.org/tutorials/beginner/basics/quickstart_tutorial.html)
