@@ -23,11 +23,9 @@ Timeline:
    1. [How to use](https://docs.github.com/en/codespaces/developing-in-codespaces/getting-started-with-github-codespaces-for-machine-learning)
 
 ## Tasks
-- [ ] Implement code to use the [DiffusionDB](https://huggingface.co/datasets/poloclub/diffusiondb) dataset
-  - [ ] How to connect to the dataset on huggingface? What size of subset should we use?
-  - [ ] How to combine it with the Imagenette dataset? (this is available in [torchvision.datasets](https://pytorch.org/vision/stable/datasets.html))
-  - [ ] Implement splitting into train/valid/test
-  - [ ] Write functions to load data with pytorch torchvision.datasets (look at)
+- [ ] Implement own data loader class to jointly use
+  - [ ]  [DiffusionDB](https://huggingface.co/datasets/poloclub/diffusiondb)
+  - [ ]  [Imagenette](https://huggingface.co/datasets/frgfm/imagenette)
 - [ ] Implement [Resnet50](https://pytorch.org/hub/nvidia_deeplearningexamples_resnet50/) (use pretrained weights, use existing implementation)
 - [ ] Train and log results
 - [ ] Evaluate model on test set

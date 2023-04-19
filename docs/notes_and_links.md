@@ -1,12 +1,8 @@
-# Notes:
-- hugging face account is required for downloading imagenet dataset
-
-
 # links: 
 - [Pytorch quickstart](https://pytorch.org/tutorials/beginner/basics/quickstart_tutorial.html)
 - [a basic binary image classifier](https://github.com/github/codespaces-jupyter/blob/main/notebooks/image-classifier.ipynb)
 - [Hugging face datasets docs](https://huggingface.co/docs/datasets/load_hub)
-- [ImageNet dataset](https://huggingface.co/datasets/imagenet-1k)
+- [imagenette dataset](https://huggingface.co/datasets/frgfm/imagenette)
 - [DiffusionDB dataset](https://huggingface.co/datasets/poloclub/diffusiondb)
 
 
@@ -14,7 +10,7 @@
 
 - Datamanagement:
   - Implementation of our dataloader which should provied the following functionality:
-    - Load imagenet and diffusionDB dataset from hugging face (maybe with streaming flag if too big to store in colab later on)
+    - Load imagenette and diffusionDB dataset from hugging face 
     - combine them into one dataset and create labels: 
         - diffusionDB: all images should be labeld as 1 (for fake)
         - imagenet: all images should be labeld as 0 (for real)
