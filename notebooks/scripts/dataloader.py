@@ -1,20 +1,10 @@
-from datasets import load_dataset_builder, get_dataset_split_names, load_dataset
-import torchvision
-
-# explore the dataset
-ds_builder = load_dataset_builder("poloclub/diffusiondb")
-ds_builder.info.description
-ds_builder.info.features
-get_dataset_split_names("poloclub/diffusiondb", "2m_random_1k")
-
-# load smalles subset 
-dataset = load_dataset("poloclub/diffusiondb", "2m_random_1k", split="train")
-
-# split into test and train
-train_val_test_splits = dataset.train_test_split(test_size=0.3, seed=42)
-
-
-
-### torc
-
-torchvision.datasets.ImageNet(root='', train=True, download=True)
+'''
+Implementation of our dataloader which should provied the following functionality:
+- Load imagenet and diffusionDB dataset from hugging face (maybe with streaming flag if too big to store)
+- combine them into one dataset and create labels: 
+    - diffusionDB: all images should be labeld as 1 (for fake)
+    - imagenet: all images should be labeld as 0 (for real)
+- shuffle the dataset and split the into train and test set (80/20)
+    - make sure we have about equal amount of real and fake images in the train and test set
+- create a torch dataloader which can be used for training 
+'''
