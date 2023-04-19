@@ -16,12 +16,6 @@ Timeline:
    - other models (Vision transformer?)
    - perturbations (blur, JPEG, crop, zoom, ...)
 
-## Development Environment
-1. Develop code locally, run training on Google Colab
-   - This tutorial [tutorial](https://felixbmuller.medium.com/connect-a-private-github-repository-with-google-colab-via-a-deploy-key-cca8ad13007) does not work for me.
-2. Using GitHub Codespaces (I am currently waiting on GPU access)
-   1. [How to use](https://docs.github.com/en/codespaces/developing-in-codespaces/getting-started-with-github-codespaces-for-machine-learning)
-
 ## Tasks
 - [ ] Implement own data loader class to jointly use
   - [ ]  [DiffusionDB](https://huggingface.co/datasets/poloclub/diffusiondb)

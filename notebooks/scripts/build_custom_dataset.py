@@ -32,6 +32,11 @@ dataset = dataset.shuffle()
 # get dataset size
 dataset_size = len(dataset)
 
-# split into train and test (80/20)
-train_dataset = dataset.select(range(int(dataset_size * 0.8)))
-test_dataset = dataset.select(range(int(dataset_size * 0.8), dataset_size))
+# split into train validation and test (70/15/15)
+train_dataset = dataset.select(range(int(dataset_size * 0.7)))
+validation_dataset = dataset.select(range(int(dataset_size * 0.7), int(dataset_size * 0.85)))
+test_dataset = dataset.select(range(int(dataset_size * 0.85), dataset_size))
+
+train_dataset.save_to_disk("/Users/hannesehringfeld/ssd/Uni/DL_praktikum/MPDL_Project_1/notebooks/data/custom_image_classifier/train_dataset")
+test_dataset.save_to_disk("/Users/hannesehringfeld/ssd/Uni/DL_praktikum/MPDL_Project_1/notebooks/data/custom_image_classifier/test_dataset")
+validation_dataset.save_to_disk("/Users/hannesehringfeld/ssd/Uni/DL_praktikum/MPDL_Project_1/notebooks/data/custom_image_classifier/validation_dataset")
