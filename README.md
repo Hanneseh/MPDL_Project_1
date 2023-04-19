@@ -36,3 +36,4 @@ Timeline:
 ## Helpful Links
 - [Pytorch quickstart](https://pytorch.org/tutorials/beginner/basics/quickstart_tutorial.html)
 - [basic classifier](https://github.com/github/codespaces-jupyter/blob/main/notebooks/image-classifier.ipynb)
+- [Hugging face datasets docs](https://huggingface.co/docs/datasets/load_hub)
