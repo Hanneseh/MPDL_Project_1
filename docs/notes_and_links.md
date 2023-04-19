@@ -7,7 +7,6 @@
 
 
 # Workloads:
-
 - Datamanagement:
   - Implementation of our dataloader which should provied the following functionality:
     - Load imagenette and diffusionDB dataset from hugging face 
@@ -20,10 +19,15 @@
 - Resnet50
   - Research and implement/copy model implementation of Resnet50 for binary image classification
   - Are there pretrained weights?
+  - What loss function, optimizer and learning rate should we use?
+- Train and monitor model:
+  - Implement training notebook
   - Test if training works (maybe use arbitrary dataset before ours is ready)
     - Figure out what GPU we coud use, how to run training in colab
+    - Early stopping and checkpoint saving
 - Test and evaluate model:
   - implement test notebook, calculate evaluation metrics
+  - Feasable options for experiments?
   - How does overleaf work? Start outlining the report
 
 # Splitting the workload:
