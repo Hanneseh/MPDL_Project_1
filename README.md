@@ -17,12 +17,10 @@ Timeline:
    - perturbations (blur, JPEG, crop, zoom, ...)
 
 ## Tasks
-- [ ] Implement own data loader class to jointly use
-  - [ ]  [DiffusionDB](https://huggingface.co/datasets/poloclub/diffusiondb)
-  - [ ]  [Imagenette](https://huggingface.co/datasets/frgfm/imagenette)
-- [ ] Implement [Resnet50](https://pytorch.org/hub/nvidia_deeplearningexamples_resnet50/) (use pretrained weights, use existing implementation)
-- [ ] Train and log results
-- [ ] Evaluate model on test set
+- [x] Train baseline binary image classifier on starting Dataset: ResNet50 trained on DiffusionDB "2m_first_10k" ("train") subset and Imagenette "full", "train"
+  - [DiffusionDB](https://huggingface.co/datasets/poloclub/diffusiondb)
+  - [Imagenette](https://huggingface.co/datasets/frgfm/imagenette)
+- [ ] Perform further experiments 
 - [ ] Write report
 
 ## Helpful Links

@@ -4,3 +4,4 @@ notebooks/cifar_net.pth
 __pycache__/
 .DS_Store
 notebooks/data/
+models/
