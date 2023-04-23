@@ -2,5 +2,10 @@ notebooks/data
 notebooks/cifar_net.pth
 .ipynb_checkpoints/
 __pycache__/
+<<<<<<< HEAD
 .DS_Store/
 notebooks/experiments/classifier.pth
+=======
+.DS_Store
+notebooks/data/
+>>>>>>> fd39e8266befec8a2856daaaef7eca12ca19ae29
