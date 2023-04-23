@@ -3,3 +3,4 @@ notebooks/cifar_net.pth
 .ipynb_checkpoints/
 __pycache__/
 .DS_Store/
+notebooks/experiments/classifier.pth
