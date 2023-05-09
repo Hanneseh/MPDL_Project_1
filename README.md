@@ -1,4 +1,4 @@
-# MPDL_Poject_1
+# MPDL_Poject_1 Group 2
 Project repo for "Masterpraktikum Deep Learning and Natural Language Processing" at the Ruhr University Bochum in the summer term 2023.
 
 ## Objective of the project
@@ -8,6 +8,11 @@ The objective of the first project of the seminar was to train a binary image cl
 We trained our model on a custom dataset. The documentation of its composition can be found on [huggingface](https://huggingface.co/datasets/Hanneseh/MPDL_Project_1_custom_data)
 
 ## Files in this repository
-- "train_resnet_50_custom_dataset_1_0.ipynb": Training and testing code of iteration 1.0
-- "train_resnet_50_large_dataset_3_0.ipynb" : Training and testing code of iteration 3.0
-- "train_resnet_50_large_dataset_3_0_lr_0001.ipynb": Training and testing code of iteration 3.0 with a learning rate of 0.0001
+- "report.pdf": The report of the project
+- "final_classifier.pth": The final model we trained
+- "example_usage.ipynb": A notebook showing how to use the model
+- test_images/: some images to test the model
+- training_notebooks/:
+  - "train_resnet_50_custom_dataset_1_0.ipynb": Training and testing code of iteration 1.0
+  - "train_resnet_50_large_dataset_3_0.ipynb" : Training and testing code of iteration 3.0
+  - "train_resnet_50_large_dataset_3_0_lr_0001.ipynb": Training and testing code of iteration 3.0 with a learning rate of 0.0001
