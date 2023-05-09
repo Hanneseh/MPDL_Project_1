@@ -9,4 +9,5 @@ We trained our model on a custom dataset. The documentation of its composition c
 
 ## Files in this repository
 - "train_resnet_50_custom_dataset_1_0.ipynb": Training and testing code of iteration 1.0
-- 
+- "train_resnet_50_large_dataset_3_0.ipynb" : Training and testing code of iteration 3.0
+- "train_resnet_50_large_dataset_3_0_lr_0001.ipynb": Training and testing code of iteration 3.0 with a learning rate of 0.0001
