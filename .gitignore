@@ -1,9 +1,5 @@
-notebooks/data
-notebooks/cifar_net.pth
-data
 .ipynb_checkpoints/
 __pycache__/
 .DS_Store/
 .venv
-images/
-models/
+.devcontainer
